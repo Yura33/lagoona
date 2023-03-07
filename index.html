@@ -16,8 +16,10 @@
         <a href="index.html" class="header__logo-link">
           <img src="img/logo.svg" alt="Lagoona сеть отелей" class="header__img">
         </a>
-        <a href="tel:+74953225448" class="header__tel">+7 495 322 54 48</a>
-        <a href="#" class="link header__link-account">Личный кабинет</a>
+        <div class="header__inner">
+          <a href="tel:+74953225448" class="header__tel">+7 495 322 54 48</a>
+          <a href="#" class="link header__link-account">Личный кабинет</a>
+        </div>
       </div>
       <div class="header__lower-part">
         <nav class="header__nav">
@@ -41,6 +43,9 @@
               <a href="#contacts" class="header__nav-link">Контакты</a>
             </li>
           </ul>
+          <button class="header__burger" aria-label="menu">
+            <span class="header__burger-span"></span>
+          </button>
         </nav>
         <div class="header__wrap-btn">
           <a href="#book-a-tour" class="btn header__btn">Хочу тур</a>
@@ -157,13 +162,19 @@
           <li class="placement__item">
             <img src="img/placement/lagoona1.png" alt="Фото Lagoona española" class="placement__img">
             <div class="placement__inner">
-              <div class="placement__price">от <span class="placement__cost">4 698 р</span><span class="placement__span"> &#47; ночь</span></div>
-              <div class="placement__stars">
-                <img src="img/star.png" alt="Рейтинг 4 из 5" class="placement__star">
-                <img src="img/star.png" alt="" class="placement__star">
-                <img src="img/star.png" alt="" class="placement__star">
-                <img src="img/star.png" alt="" class="placement__star">
-                <img src="img/star-empty.png" alt="" class="placement__star">
+              <div class="placement__price">
+                <div class="placement__price-box">
+                  от
+                  <span class="placement__cost">4 698 р</span>
+                  <span class="placement__span"> &#47; ночь</span>
+                </div>
+                <div class="placement__stars">
+                  <img src="img/star.png" alt="Рейтинг 4 из 5" class="placement__star">
+                  <img src="img/star.png" alt="" class="placement__star">
+                  <img src="img/star.png" alt="" class="placement__star">
+                  <img src="img/star.png" alt="" class="placement__star">
+                  <img src="img/star-empty.png" alt="" class="placement__star">
+                </div>
               </div>
               <div class="placement__description">Lagoona española</div>
               <div class="placement__location">Барселона, Испания</div>
@@ -173,13 +184,19 @@
           <li class="placement__item">
             <img src="img/placement/lagoona2.png" alt="Фото Lagoona son típicas" class="placement__img">
             <div class="placement__inner">
-              <div class="placement__price">от <span class="placement__cost">5 148 р</span><span class="placement__span"> &#47; ночь</span></div>
-              <div class="placement__stars">
-                <img src="img/star.png" alt="Рейтинг 4 из 5" class="placement__star">
-                <img src="img/star.png" alt="" class="placement__star">
-                <img src="img/star.png" alt="" class="placement__star">
-                <img src="img/star.png" alt="" class="placement__star">
-                <img src="img/star-empty.png" alt="" class="placement__star">
+              <div class="placement__price">
+                <div class="placement__price-box">
+                  от
+                  <span class="placement__cost">5 148 р</span>
+                  <span class="placement__span"> &#47; ночь</span>
+                </div>
+                <div class="placement__stars">
+                  <img src="img/star.png" alt="Рейтинг 4 из 5" class="placement__star">
+                  <img src="img/star.png" alt="" class="placement__star">
+                  <img src="img/star.png" alt="" class="placement__star">
+                  <img src="img/star.png" alt="" class="placement__star">
+                  <img src="img/star-empty.png" alt="" class="placement__star">
+                </div>
               </div>
               <div class="placement__description">Lagoona son típicas</div>
               <div class="placement__location">Барселона, Испания</div>
@@ -189,13 +206,19 @@
           <li class="placement__item">
             <img src="img/placement/lagoona3.png" alt="Фото Lagoona de la guerra" class="placement__img">
             <div class="placement__inner">
-              <div class="placement__price">от <span class="placement__cost">6 254 р</span><span class="placement__span"> &#47; ночь</span></div>
-              <div class="placement__stars">
-                <img src="img/star.png" alt="Рейтинг 5 из 5" class="placement__star">
-                <img src="img/star.png" alt="" class="placement__star">
-                <img src="img/star.png" alt="" class="placement__star">
-                <img src="img/star.png" alt="" class="placement__star">
-                <img src="img/star.png" alt="" class="placement__star">
+              <div class="placement__price">
+                <div class="placement__price-box">
+                  от
+                  <span class="placement__cost">6 254 р</span>
+                  <span class="placement__span"> &#47; ночь</span>
+                </div>
+                <div class="placement__stars">
+                  <img src="img/star.png" alt="Рейтинг 5 из 5" class="placement__star">
+                  <img src="img/star.png" alt="" class="placement__star">
+                  <img src="img/star.png" alt="" class="placement__star">
+                  <img src="img/star.png" alt="" class="placement__star">
+                  <img src="img/star.png" alt="" class="placement__star">
+                </div>
               </div>
               <div class="placement__description">Lagoona de la guerra</div>
               <div class="placement__location">Барселона, Испания</div>
@@ -205,13 +228,19 @@
           <li class="placement__item">
             <img src="img/placement/lagoona4.png" alt="Фото Lagoona mentira piadosa" class="placement__img">
             <div class="placement__inner">
-              <div class="placement__price">от <span class="placement__cost">6 320 р</span><span class="placement__span"> &#47; ночь</span></div>
-              <div class="placement__stars">
-                <img src="img/star.png" alt="Рейтинг 5 из 5" class="placement__star">
-                <img src="img/star.png" alt="" class="placement__star">
-                <img src="img/star.png" alt="" class="placement__star">
-                <img src="img/star.png" alt="" class="placement__star">
-                <img src="img/star.png" alt="" class="placement__star">
+              <div class="placement__price">
+                <div class="placement__price-box">
+                  от
+                  <span class="placement__cost">6 320 р</span>
+                  <span class="placement__span"> &#47; ночь</span>
+                </div>
+                <div class="placement__stars">
+                  <img src="img/star.png" alt="Рейтинг 5 из 5" class="placement__star">
+                  <img src="img/star.png" alt="" class="placement__star">
+                  <img src="img/star.png" alt="" class="placement__star">
+                  <img src="img/star.png" alt="" class="placement__star">
+                  <img src="img/star.png" alt="" class="placement__star">
+                </div>
               </div>
               <div class="placement__description">Lagoona mentira piadosa</div>
               <div class="placement__location">Барселона, Испания</div>
@@ -221,13 +250,19 @@
           <li class="placement__item">
             <img src="img/placement/lagoona5.png" alt="Фото Lagoona empujar la creatividad" class="placement__img">
             <div class="placement__inner">
-              <div class="placement__price">от <span class="placement__cost">6 457 р</span><span class="placement__span"> &#47; ночь</span></div>
-              <div class="placement__stars">
-                <img src="img/star.png" alt="Рейтинг 4 из 5" class="placement__star">
-                <img src="img/star.png" alt="" class="placement__star">
-                <img src="img/star.png" alt="" class="placement__star">
-                <img src="img/star.png" alt="" class="placement__star">
-                <img src="img/star-empty.png" alt="" class="placement__star">
+              <div class="placement__price">
+                <div class="placement__price-box">
+                  от
+                  <span class="placement__cost">6 457 р</span>
+                  <span class="placement__span"> &#47; ночь</span>
+                </div>
+                <div class="placement__stars">
+                  <img src="img/star.png" alt="Рейтинг 4 из 5" class="placement__star">
+                  <img src="img/star.png" alt="" class="placement__star">
+                  <img src="img/star.png" alt="" class="placement__star">
+                  <img src="img/star.png" alt="" class="placement__star">
+                  <img src="img/star-empty.png" alt="" class="placement__star">
+                </div>
               </div>
               <div class="placement__description">Lagoona empujar la creatividad</div>
               <div class="placement__location">Барселона, Испания</div>
@@ -237,13 +272,19 @@
           <li class="placement__item">
             <img src="img/placement/lagoona6.png" alt="Фото Lagoona el retorno" class="placement__img">
             <div class="placement__inner">
-              <div class="placement__price">от <span class="placement__cost">6 320 р</span><span class="placement__span"> &#47; ночь</span></div>
-              <div class="placement__stars">
-                <img src="img/star.png" alt="Рейтинг 4 из 5" class="placement__star">
-                <img src="img/star.png" alt="" class="placement__star">
-                <img src="img/star.png" alt="" class="placement__star">
-                <img src="img/star.png" alt="" class="placement__star">
-                <img src="img/star-empty.png" alt="" class="placement__star">
+              <div class="placement__price">
+                <div class="placement__price-box">
+                  от
+                  <span class="placement__cost">6 320 р</span>
+                  <span class="placement__span"> &#47; ночь</span>
+                </div>
+                <div class="placement__stars">
+                  <img src="img/star.png" alt="Рейтинг 4 из 5" class="placement__star">
+                  <img src="img/star.png" alt="" class="placement__star">
+                  <img src="img/star.png" alt="" class="placement__star">
+                  <img src="img/star.png" alt="" class="placement__star">
+                  <img src="img/star-empty.png" alt="" class="placement__star">
+                </div>
               </div>
               <div class="placement__description">Lagoona el retorno</div>
               <div class="placement__location">Барселона, Испания</div>
@@ -253,13 +294,19 @@
           <li class="placement__item">
             <img src="img/placement/lagoona7.png" alt="Фото Lagoona mentira piadosa" class="placement__img">
             <div class="placement__inner">
-              <div class="placement__price">от <span class="placement__cost">6 505 р</span><span class="placement__span"> &#47; ночь</span></div>
-              <div class="placement__stars">
-                <img src="img/star.png" alt="Рейтинг 5 из 5" class="placement__star">
-                <img src="img/star.png" alt="" class="placement__star">
-                <img src="img/star.png" alt="" class="placement__star">
-                <img src="img/star.png" alt="" class="placement__star">
-                <img src="img/star.png" alt="" class="placement__star">
+              <div class="placement__price">
+                <div class="placement__price-box">
+                  от
+                  <span class="placement__cost">6 505 р</span>
+                  <span class="placement__span"> &#47; ночь</span>
+                </div>
+                <div class="placement__stars">
+                  <img src="img/star.png" alt="Рейтинг 5 из 5" class="placement__star">
+                  <img src="img/star.png" alt="" class="placement__star">
+                  <img src="img/star.png" alt="" class="placement__star">
+                  <img src="img/star.png" alt="" class="placement__star">
+                  <img src="img/star.png" alt="" class="placement__star">
+                </div>
               </div>
               <div class="placement__description">Lagoona mentira piadosa</div>
               <div class="placement__location">Барселона, Испания</div>
@@ -269,13 +316,19 @@
           <li class="placement__item">
             <img src="img/placement/lagoona8.png" alt="Фото Lagoona suerte siguió siempre" class="placement__img">
             <div class="placement__inner">
-              <div class="placement__price">от <span class="placement__cost">6 824 р</span><span class="placement__span"> &#47; ночь</span></div>
-              <div class="placement__stars">
-                <img src="img/star.png" alt="Рейтинг 4 из 5" class="placement__star">
-                <img src="img/star.png" alt="" class="placement__star">
-                <img src="img/star.png" alt="" class="placement__star">
-                <img src="img/star.png" alt="" class="placement__star">
-                <img src="img/star-empty.png" alt="" class="placement__star">
+              <div class="placement__price">
+                <div class="placement__price-box">
+                  от
+                  <span class="placement__cost">6 824 р</span>
+                  <span class="placement__span"> &#47; ночь</span>
+                </div>
+                <div class="placement__stars">
+                  <img src="img/star.png" alt="Рейтинг 4 из 5" class="placement__star">
+                  <img src="img/star.png" alt="" class="placement__star">
+                  <img src="img/star.png" alt="" class="placement__star">
+                  <img src="img/star.png" alt="" class="placement__star">
+                  <img src="img/star-empty.png" alt="" class="placement__star">
+                </div>
               </div>
               <div class="placement__description">Lagoona suerte siguió siempre</div>
               <div class="placement__location">Барселона, Испания</div>

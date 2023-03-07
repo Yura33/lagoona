@@ -12,3 +12,5 @@
 1. *semantic layout*
 2. *cross-browser*
 3. *BEM methodology*
+4. *adaptability*
+5. *accessibility*
